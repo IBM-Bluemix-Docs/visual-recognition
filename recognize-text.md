@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-12-15"
+lastupdated: "2017-12-18"
 
 ---
 
@@ -19,13 +19,13 @@ lastupdated: "2017-12-15"
 
 # Text recognition in natural scenes (Beta)
 
-Use the {{site.data.keyword.visualrecognitionshort}} beta Text model to detect and recognize English text in images. The Text model is designed to recognize scene text in images rather than the denser text in documents.
+Use the beta Text model to detect and recognize English text in images. The Text model is designed to recognize scene text in images rather than the denser text in documents.
 
 ---
 
-**Beta:** The Text model is a private beta feature, and you must have permission from {{site.data.keyword.IBM_notm}} to make calls to the model. If you have questions about access or about the Text model, contact Kevin Gong at kgong@us.ibm.com. For more information about beta features, see [Release notes](/docs/services/visual-recognition/release-notes.html#beta).
+**Beta:** The Text model is a private beta feature, and you must have permission from IBM to make calls to the model. If you have questions or comments, contact Kevin Gong at kgong@us.ibm.com. For more information, see "Beta features" in the [Release notes](/docs/services/visual-recognition/release-notes.html#beta). If you have questions or comments about the Text model, contact Kevin Gong at kgong@us.ibm.com.
 
-[Go](/docs/services/visual-recognition/index.html) to the generally available docs.
+[Return](/docs/services/visual-recognition/index.html) to the generally available docs.
 
 ---
 <!--
@@ -54,6 +54,18 @@ Text in images is better recognized when it adheres to these guidelines:
 - The text is primarily full words, not strings of letters such as product codes. The model recognizes words rather than individual characters, and might discard single-letter "words" or numbers.
 - The text is printed in a standard font, not a highly stylized one. For example, text in license plates or movie poster titles might not be recognized. Likewise, handwritten text might not be recognized.
 - The Text model is trained mainly on English language words. Text in other languages likely won't be recognized.
+
+## Known issues
+{: #known-issues}
+
+- **Image file name required:** With the initial release, calls to the Text model require a file name when you POST a file using the multipart/form-data Content-Type. For example, the following curl code snippet sends an empty file name:
+
+    ```curl
+    curl -X POST -F "images_file=@example.jpg ;filename="
+    ```
+    {: pre}
+
+    This request fails with the error, "No images were specified." To fix this error, include the file name with your request.
 
 ## Next steps
 
