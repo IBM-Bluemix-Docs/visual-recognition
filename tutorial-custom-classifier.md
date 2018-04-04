@@ -22,6 +22,9 @@ lastupdated: "2018-04-02"
 After you analyze an image in the "Getting started tutorial," you are ready to train and create a custom model. With a custom model, you can train the {{site.data.keyword.visualrecognitionshort}} service to classify images to suit your business needs.
 {: shortdesc}
 
+## Cost involved in creating a custom model.
+It is important that users should note that there is a significatn cost involved in creating a custom model. There is a cost of $0.10 for each training sample used when creating the custom classifier. For example, if the user uses 1000 images to train a classifier, the user will be billed 1000 * $0.10 = $100.
+
 ## Step 1:  Copy your credentials
 {: #copy-credentials}
 
@@ -262,3 +265,4 @@ Now that you have a basic understanding of how to use custom models, you can div
 {: #attributions}
 
 All images used on this page are from Flikr and used under [Creative Commons Attribution 2.0 license ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://creativecommons.org/licenses/by/2.0/deed.en){: new_window}. No changes were made to these images.
+
