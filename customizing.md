@@ -39,6 +39,11 @@ The General classifier returns classes from thousands of possible tags organized
 ### Classify response hierarchy
 
 The `/v3/classify` method classifies images within a hierarchy of related classes. For example, a picture of a Beagle might be classified as "animal" as well as the related "dog" and "beagle". A positive match with the related classes, in this case "dog" and "beagle", boosts the score of the parent response. In this example, the response includes all three classes: "animal", "dog", and "beagle". The score of the parent class ("animal") is boosted because it matches the related classes ("dog" and "beagle"). The parent is also a "type\_hierarchy" to show that it is a parent of the hierarchy.
+### Estimate the cost involved
+
+**Important:** When creating the classifier, each image used is counted as a training event. Each training event is billed at the rate of $0.10. Plan the total cost involved before creating the custom classifier. 
+
+For example if 200 images are ued for a classifier, the cost incurred will be 200 * $0.10 = $20.
 
 ## Structure of the training data
 {: #structure}
