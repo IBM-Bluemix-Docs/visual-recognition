@@ -104,13 +104,13 @@ There are also size limitations when classifying images or detecting faces:
 The following guidelines are not enforced by the API. However, the service tends to perform better when the training data adheres to them:
 
 - Make sure that your images are at least 224 x 224 pixels.
+- If you are encountering size limitations, images sent to the /classify and /classifiers endpoints can be resized to exactly 224 x 224 pixels without compromising the quality of the training or classification.
 - For .png images, make sure that the pixel depth is set to at least 24 bits per pixel:
     - To check the depth on MacOS, run the `file` command. 24-bit depth is displayed as `8-bit/color`.
     - To check on Windows, right-click the file and choose **Properties** > **Details**. Look for **Bit depth**.
 - Include at least 50 positive images per class before you assess your training results.
     - Assuming similar quality and content for your training data, more training images generally provide more accurate results than fewer images.
     - 150 - 200 images per .zip file provides the best balance between processing time and accuracy. More than 200 images increases the time and the accuracy, but with diminishing returns for the amount of time it takes.
-    - The benefits of training a classifier on more images plateaus at around 5000 images. Although you can train on more than 5000 images, that number might not significantly increase accuracy, and increases processing time.
 - Include a negative class to help improve your results.
     - Include approximately the same number of negative images as positive ones. An unequal number of images might reduce the quality of the trained classifier.
 - Make sure that the backgrounds in your training images are comparable to what you expect to classify. The accuracy of your classifier can be affected by the kinds of images you provide to train it.
