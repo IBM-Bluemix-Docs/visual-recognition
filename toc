@@ -39,6 +39,8 @@ Visual Recognition
 
     {: .navgroup id="help"}
     release-notes.md
+    faqs-vr-usage.md
+    faqs-vr-plans.md
     feedback.md
 
     {: .topicgroup}
