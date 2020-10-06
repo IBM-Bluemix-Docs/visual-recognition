@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-08-28"
+lastupdated: "2020-10-06"
 
 keywords: visual recognition,visual recognition project,VisualRecognition,getting started,classify images, analyze images,tag images,image classification,image recognition,sample code
 
@@ -48,7 +48,7 @@ completion-time: 10m
 This tutorial guides you through simple image recognition with {{site.data.keyword.visualrecognitionfull}}. You use the built-in models to analyze the images.
 {: shortdesc}
 
-To work in a graphical interface where you can create your own custom models, use <span class="hide-dashboard">[{{site.data.keyword.DSX}}](https://dataplatform.cloud.ibm.com/registration/stepone?target=watson_vision_combined&context=wdp&apps=watson_studio&cm_sp=WatsonPlatform-WatsonPlatform-_-OnPageNavCTA-IBMWatson_VisualRecognition-_-docs){: external}</span><span class="hide-in-docs">[{{site.data.keyword.DSX}}](tooling-url){: external}</span>, part of Cloud Pak for Data as a Service, and follow the [video](https://youtu.be/898RN31szg0){: external}.
+To work in a graphical interface where you can create your own custom models, use <span class="hide-dashboard">[{{site.data.keyword.DSX}}](https://dataplatform.cloud.ibm.com/registration/stepone?target=watson_vision_combined&context=wdp&apps=watson_studio&cm_sp=WatsonPlatform-WatsonPlatform-_-OnPageNavCTA-IBMWatson_VisualRecognition-_-docs){: external}</span><span class="hide-in-docs">[{{site.data.keyword.DSX}}](tooling-url){: external}</span>, part of Cloud Pak for Data as a Service, and follow the [video](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/videos.html#vizrec){: external}.
 {: tooling-url}
 {: tip}
 
@@ -347,7 +347,7 @@ To work in a graphical interface where you can create your own custom models, us
     {: unity}
     {: codeblock}
 
-    The response includes the classes that are identified in the image from the built-in General model (`"classifier_id": "default"`) and a confidence score for each class. The score represents a percentage, and higher values represent higher confidences. By default, responses from the **Classify** calls don't include classes with a score below `0.5` (50%).
+    The response includes the classes that are identified in the image from the built-in General model (`"classifier_id": "default"`) and a confidence score for each class. The score represents a percentage, and higher values represent higher confidences. By default, responses from the **Classify** calls don't include classes with a score lower than `0.5` (50%).
 
     ```json
     {
