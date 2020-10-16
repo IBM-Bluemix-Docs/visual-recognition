@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-08-28"
+lastupdated: "2020-10-16"
 
 keywords: new features,updates,what's new,changelog,change log,release notes,visual recognition release notes
 
@@ -44,6 +44,11 @@ The current version is `2018-03-19`.
 {: #changelog}
 
 The following new features and changes to the service are available.
+
+### 16 October 2020
+{: #16october2020}
+
+You can no longer create a Lite plan instance of the {{site.data.keyword.visualrecognitionshort}} service. However, existing Lite plan instances remain available.  You can create new instances as billable Standard plans.
 
 ### 28 April 2020
 {: #28april2020}

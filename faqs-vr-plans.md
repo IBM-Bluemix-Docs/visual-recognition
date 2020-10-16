@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-25"
+lastupdated: "2020-10-16"
 
 keywords: faqs, Frequently Asked Questions, Visual Recognition faqs
 
@@ -26,7 +26,7 @@ FAQs for {{site.data.keyword.visualrecognitionshort}} plans might include questi
 {: #plans}
 {: faq}
 
-The {{site.data.keyword.visualrecognitionshort}} service offers a Lite plan and a Standard plan.  Unlike other Watson services, {{site.data.keyword.visualrecognitionshort}} does not currently offer other tiers, such as Premium. You can [explore the catalog page](https://{DomainName}/catalog/visual-recognition){: external} for complete plan details. 
+The {{site.data.keyword.visualrecognitionshort}} service offers a Standard plan.  Unlike other Watson services, {{site.data.keyword.visualrecognitionshort}} does not currently offer other tiers, such as Premium. You can [explore the catalog page](https://{DomainName}/catalog/visual-recognition){: external} for complete plan details.
 
 ## What is the definition of event in a pricing plan?
 {: #event}
@@ -80,7 +80,7 @@ As long as you use the {{site.data.keyword.visualrecognitionshort}} service ever
 {: #core-ml}
 {: faq}
 
-Core ML downloads are free, for either the Lite or Standard plan. In addition, downloading a Core ML model doesn't count toward the event limit.
+Core ML downloads are free for either the Lite or Standard plan. In addition, downloading a Core ML model doesn't count toward the event limit.
 There is no charge for off-line classification, in which you download the model and run classification on an iOS device.  There is a charge for training the model and online classification, in which you call and classify using the API.
 
 ## Are API keys part of the pricing plan?
