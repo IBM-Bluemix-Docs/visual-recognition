@@ -2,14 +2,13 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-10-06"
+lastupdated: "2020-10-22"
 
 keywords: visual recognition,visual recognition project,VisualRecognition,getting started,classify images, analyze images,tag images,image classification,image recognition,sample code
 
 subcollection: visual-recognition
 
 content-type: tutorial
-account-plan: lite
 completion-time: 10m
 
 ---
@@ -57,7 +56,7 @@ To work in a graphical interface where you can create your own custom models, us
 
 - {: hide-dashboard} Create an instance of the service:
     1.  Go to the [{{site.data.keyword.visualrecognitionshort}}](https://{DomainName}/catalog/visual-recognition){: external} page in the catalog.
-    1.  Sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
+    1.  Sign up for a Pay-As-You-Go {{site.data.keyword.Bluemix_notm}} account or log in.
     1.  Click **Create**.
 - {: hide-dashboard} Copy the credentials to authenticate to your service instance:
     1.  On the **Manage** page, click **Show Credentials**.
