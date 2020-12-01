@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-01-30"
+lastupdated: "2020-12-01"
 
 keywords: food model,general model,default model,built-in model,pre-trained model,explicit model,food classifier,general classifier,default classifier,built-in classifier,pre-trained classifier,explicit classifier
 
@@ -26,6 +26,9 @@ subcollection: visual-recognition
 
 # About
 {: #index}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
 
 The {{site.data.keyword.visualrecognitionfull}} service uses deep learning algorithms to analyze images for scenes, objects, and other content. The response includes keywords that provide information about the content.
 {: shortdesc}

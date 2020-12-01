@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-01-30"
+lastupdated: "2020-12-01"
 
 keywords: migrating
 
@@ -26,6 +26,9 @@ subcollection: visual-recognition
 
 # Migrating
 {: #migrating}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
 
 To migrate your current models (classifiers), provision a new instance of the {{site.data.keyword.visualrecognitionshort}} service. For custom models, retrain the model by creating another model (classifier) with the images from the earlier model.
 {: shortdesc}

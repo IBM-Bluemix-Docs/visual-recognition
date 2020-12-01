@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="visual-recognition" category="ai" service-name="Visual Recognition" audience="service" product-page="https://www.ibm.com/cloud/watson-visual-recognition" href="/docs/visual-recognition?topic=visual-recognition-getting-started-tutorial#getting-started-tutorial" path="visual-recognition"}
+{: .toc subcollection="visual-recognition" service-name="Visual Recognition" audience="service" product-page="https://www.ibm.com/cloud/watson-visual-recognition" href="/docs/visual-recognition?topic=visual-recognition-getting-started-tutorial#getting-started-tutorial" path="visual-recognition"}
 Visual Recognition
 
     {: .navgroup id="learn"}
@@ -27,8 +27,8 @@ Visual Recognition
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [v3 API reference](https://cloud.ibm.com/apidocs/visual-recognition)
-    [v4 API reference](https://cloud.ibm.com/apidocs/visual-recognition-v4)
+    [v3 API & SDK reference](https://cloud.ibm.com/apidocs/visual-recognition)
+    [v4 API & SDK reference](https://cloud.ibm.com/apidocs/visual-recognition-v4)
     language-support.md
     information-security.md
     at.md

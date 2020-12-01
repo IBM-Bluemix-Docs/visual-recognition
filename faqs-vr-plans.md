@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-16"
+lastupdated: "2020-12-01"
 
 keywords: faqs, Frequently Asked Questions, Visual Recognition faqs
 
@@ -18,6 +18,9 @@ subcollection: visual-recognition
 
 # FAQs about {{site.data.keyword.visualrecognitionshort}} plans
 {: #vr-plans-faqs}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
 
 FAQs for {{site.data.keyword.visualrecognitionshort}} plans might include questions about plan features or pricing. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
 {: shortdesc}
