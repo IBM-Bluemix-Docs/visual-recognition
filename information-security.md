@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-30"
+lastupdated: "2020-12-01"
 
 keywords: GDPR,General Data Protection Regulation,deleting customer data,privacy
 
@@ -22,6 +22,9 @@ subcollection: visual-recognition
 
 # Information security
 {: #information-security}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
 
 IBM is committed to providing our clients and partners with innovative data privacy, security and governance solutions.
 {: shortdesc}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-30"
+lastupdated: "2020-12-01"
 
 keywords: train classifier,retrain classifier,update classifier,positive example,negative example,hierarchy classes,training data,confidence score
 
@@ -26,6 +26,9 @@ subcollection: visual-recognition
 
 # Guidelines for training classifiers
 {: #customizing}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
 
 After you classify an image and create, train, and query a custom classifier with the example data in the [Creating a custom classifier tutorial](/docs/visual-recognition?topic=visual-recognition-tutorial-custom-classifier#tutorial-custom-classifier), you can classify your own data or create your own custom classifier.
 {: shortdesc}

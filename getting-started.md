@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-10-22"
+lastupdated: "2020-12-01"
 
 keywords: visual recognition,visual recognition project,VisualRecognition,getting started,classify images, analyze images,tag images,image classification,image recognition,sample code
 
@@ -38,13 +38,15 @@ completion-time: 10m
 {:hide-in-docs: .hide-in-docs}
 {:step: data-tutorial-type='step'}
 
-
 # Getting started with {{site.data.keyword.visualrecognitionshort}}
 {: #getting-started-tutorial}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-This tutorial guides you through simple image recognition with {{site.data.keyword.visualrecognitionfull}}. You use the built-in models to analyze the images.
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
+
+This tutorial guides you through simple image recognition with {{site.data.keyword.visualrecognitionfull}}. You use the built-in models to analyze the images. If you’re an existing {{site.data.keyword.visualrecognitionshort}} user, you can continue to use the service until it is no longer supported on 1 December 2021.
 {: shortdesc}
 
 To work in a graphical interface where you can create your own custom models, use <span class="hide-dashboard">[{{site.data.keyword.DSX}}](https://dataplatform.cloud.ibm.com/registration/stepone?target=watson_vision_combined&context=wdp&apps=watson_studio&cm_sp=WatsonPlatform-WatsonPlatform-_-OnPageNavCTA-IBMWatson_VisualRecognition-_-docs){: external}</span><span class="hide-in-docs">[{{site.data.keyword.DSX}}](tooling-url){: external}</span>, part of Cloud Pak for Data as a Service, and follow the [video](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/videos.html#vizrec){: external}.
@@ -74,27 +76,27 @@ To work in a graphical interface where you can create your own custom models, us
     - {: dotnet-standard} Package Manager
 
         ```sh
-        Install-Package IBM.Watson.VisualRecognition.v3 -Version 4.0
+        Install-Package IBM.Watson.VisualRecognition.v3 -Version 5.0
         ```
         {: codeblock}
 
     - {: dotnet-standard} .NET CLI
 
         ```sh
-        dotnet add package IBM.Watson.VisualRecognition.v3 -version 4.0
+        dotnet add package IBM.Watson.VisualRecognition.v3 -version 5.0
         ```
         {: pre}
 
     - {: dotnet-standard} PackageReference
 
         ```xml
-        <PackageReference Include="IBM.Watson.VisualRecognition.v3" Version="4.0.0" />
+        <PackageReference Include="IBM.Watson.VisualRecognition.v3" Version="5.0.0" />
         ```
         {: codeblock}
 - {:go} Install the [Go SDK](https://github.com/watson-developer-cloud/go-sdk){: external}.
 
     ```sh
-    go get -u github.com/watson-developer-cloud/go-sdk@v1
+    go get -u github.com/watson-developer-cloud/go-sdk@v2
     ```
     {: go}
     {: pre}
@@ -105,7 +107,7 @@ To work in a graphical interface where you can create your own custom models, us
         <dependency>
           <groupId>com.ibm.watson</groupId>
           <artifactId>ibm-watson</artifactId>
-          <version>[8,9)</version>
+          <version>[9,10)</version>
         </dependency>
         ```
         {: codeblock}
@@ -113,19 +115,19 @@ To work in a graphical interface where you can create your own custom models, us
     - {: java} Gradle
 
         ```sh
-        compile 'com.ibm.watson:ibm-watson:8.+'
+        compile 'com.ibm.watson:ibm-watson:9.+'
         ```
         {:pre}
 - {: javascript} Install the [Node SDK](https://github.com/watson-developer-cloud/node-sdk){: external}.
 
     ```sh
-    npm install ibm-watson@^5
+    npm install ibm-watson@^6
     ```
     {:pre}
 - {: python} Install the [Python SDK](https://github.com/watson-developer-cloud/python-sdk){: external}.
 
     ```sh
-    pip install --upgrade "ibm-watson>=4.0.1"
+    pip install --upgrade "ibm-watson>=5.0.0"
     ```
     {:pre}
 - {: ruby} Install the [Ruby SDK](https://github.com/watson-developer-cloud/ruby-sdk){: external}.

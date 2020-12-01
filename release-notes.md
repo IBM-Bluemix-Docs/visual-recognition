@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-10-16"
+lastupdated: "2020-12-01"
 
 keywords: new features,updates,what's new,changelog,change log,release notes,visual recognition release notes
 
@@ -44,6 +44,14 @@ The current version is `2018-03-19`.
 {: #changelog}
 
 The following new features and changes to the service are available.
+
+### 1 December 2020
+{: #1december2020}
+
+- **Service deprecation**
+
+    {{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+    {: deprecated}
 
 ### 16 October 2020
 {: #16october2020}

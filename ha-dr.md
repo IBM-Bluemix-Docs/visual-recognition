@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-08-28"
+lastupdated: "2020-12-01"
 
 keywords: HA for visual recognition,DR for visual recognition,high availability for visual recognition,disaster recovery for visual recognition, failover for visual recognition
 
@@ -23,6 +23,9 @@ subcollection: visual-recognition
 
 # Understanding high availability and disaster recovery for {{site.data.keyword.visualrecognitionshort}}
 {: #ha-dr-top}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
 
 {{site.data.keyword.visualrecognitionfull}} supports high availability with no single point of failure. However, recovering from potential disasters that affect an entire location requires planning and preparation.
 {: shortdesc}

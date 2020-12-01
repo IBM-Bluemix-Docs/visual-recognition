@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-07-16"
+  years: 2015, 2020
+lastupdated: "2020-12-01"
 
 keywords: feedback,feedback button,comments
 
@@ -23,6 +23,9 @@ subcollection: visual-recognition
 
 # Feedback
 {: #feedback}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{: deprecated}
 
 We value your opinion and want to hear it.
 {: shortdesc}
