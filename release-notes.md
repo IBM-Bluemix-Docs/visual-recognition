@@ -46,7 +46,7 @@ The current version is `2018-03-19`.
 The following new features and changes to the service are available.
 
 ### 1 December 2020
-{: #12december2020}
+{: #1december2020}
 
 - **Service deprecation**
 
