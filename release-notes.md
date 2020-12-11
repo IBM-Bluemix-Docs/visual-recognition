@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-12-01"
+lastupdated: "2020-12-11"
 
 keywords: new features,updates,what's new,changelog,change log,release notes,visual recognition release notes
 
@@ -119,8 +119,6 @@ You can no longer create a Lite plan instance of the {{site.data.keyword.visualr
 - **General availability of Custom Object Detection**
 
     The Custom Object Detection features moved from Beta to General availability (GA). Custom Object Detection identifies items and their location in an image.
-
-    For more information, see [Custom Object Detection Generally Available](https://medium.com/ibm-watson/ibm-watson-visual-recognition-custom-object-detection-generally-available-906b2ae77969){: external} in the <em>IBM Watson blog</em>.
 
 ### 12 September 2019
 {: #12september2019}
