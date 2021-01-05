@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-12-01"
+  years: 2015, 2021
+lastupdated: "2021-01-11"
 
 keywords: custom model,custom classifier,samples,train classifier,train mode,train custom model,update model,retrain model
 
@@ -32,7 +32,7 @@ subcollection: visual-recognition
 # Creating a custom model
 {: #tutorial-custom-classifier}
 
-{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted.
 {: deprecated}
 
 After you analyze an image in the "Getting started tutorial," you are ready to train and create a custom model. With a custom model, you can train the {{site.data.keyword.visualrecognitionshort}} service to classify and recognize images to suit your business needs.

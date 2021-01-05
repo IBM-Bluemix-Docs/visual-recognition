@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-12-01"
+  years: 2020, 2021
+lastupdated: "2021-01-11"
 
 keywords: faqs, Frequently Asked Questions, Visual Recognition faqs
 
@@ -13,23 +13,18 @@ subcollection: visual-recognition
 {:shortdesc: .shortdesc}
 {:external: target="_blank" .external}
 {:faq: data-hd-content-type='faq'}
+{:deprecated: .deprecated}
 
 ---
 
 # FAQs about {{site.data.keyword.visualrecognitionshort}} plans
 {: #vr-plans-faqs}
 
-{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted.
 {: deprecated}
 
 FAQs for {{site.data.keyword.visualrecognitionshort}} plans might include questions about plan features or pricing. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
 {: shortdesc}
-
-## What are my plan options?
-{: #plans}
-{: faq}
-
-The {{site.data.keyword.visualrecognitionshort}} service offers a Standard plan.  Unlike other Watson services, {{site.data.keyword.visualrecognitionshort}} does not currently offer other tiers, such as Premium. You can [explore the catalog page](https://{DomainName}/catalog/visual-recognition){: external} for complete plan details.
 
 ## What is the definition of event in a pricing plan?
 {: #event}
@@ -77,7 +72,7 @@ You can create as many classes as you need. However, you are limited to 1,000 ev
 {: #lite-duration}
 {: faq}
 
-As long as you use the {{site.data.keyword.visualrecognitionshort}} service every month, your Lite plan continues to be available. Lite plan services are deleted after 30 days of inactivity.
+Because {{site.data.keyword.visualrecognitionshort}} is discontinued, existing instances are supported only until 1 December 2021. As of 7 January 2021, you can't create instances. You must use your {{site.data.keyword.visualrecognitionshort}} Lite plan service every month to keep it available. Any instance that exists on 1 December 2021 will be deleted.
 
 ## Am I charged for exports to Core ML?
 {: #core-ml}

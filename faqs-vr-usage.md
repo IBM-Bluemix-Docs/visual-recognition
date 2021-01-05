@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-12-01"
+  years: 2020, 2021
+lastupdated: "2021-01-11"
 
 keywords: faqs, Frequently Asked Questions,Visual Recognition faqs
 
@@ -13,13 +13,14 @@ subcollection: visual-recognition
 {:shortdesc: .shortdesc}
 {:external: target="_blank" .external}
 {:faq: data-hd-content-type='faq'}
+{:deprecated: .deprecated}
 
 ---
 
 # FAQs for {{site.data.keyword.visualrecognitionshort}}
 {: #vr-use-faqs}
 
-{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted.
 {: deprecated}
 
 FAQs for {{site.data.keyword.visualrecognitionshort}} might include questions about custom models, images, or deleting data. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
