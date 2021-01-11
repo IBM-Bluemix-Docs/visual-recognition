@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-12-01"
+  years: 2015, 2021
+lastupdated: "2021-01-11"
 
 keywords: custom object detection,object detection,bounding boxes,visual inspection
 
@@ -29,7 +29,7 @@ subcollection: visual-recognition
 # Custom Object Detection
 {: #object-detection-overview}
 
-{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that is provisioned on 1 December 2021 will be deleted.
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted.
 {: deprecated}
 
 {{site.data.keyword.visualrecognitionfull}} Custom Object Detection identifies items and their location in an image. The service detects these items based on a set of images with labeled training data that you provide.

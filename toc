@@ -1,11 +1,10 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="visual-recognition" service-name="Visual Recognition" audience="service" product-page="https://www.ibm.com/cloud/watson-visual-recognition" href="/docs/visual-recognition?topic=visual-recognition-getting-started-tutorial#getting-started-tutorial" path="visual-recognition"}
+{: .toc subcollection="visual-recognition" service-name="Visual Recognition" audience="service" href="/docs/visual-recognition?topic=visual-recognition-index" path="visual-recognition"}
 Visual Recognition
 
     {: .navgroup id="learn"}
-    getting-started.md
     index.md
     [Demo](https://visual-recognition-code-pattern.ng.bluemix.net/)
     [Video: Visual Recognition in Watson Studio](https://youtu.be/tvNRgI8jOIs)
