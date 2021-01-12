@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-01-11"
+lastupdated: "2021-01-12"
 
 keywords: custom model,custom classifier,samples,train classifier,train mode,train custom model,update model,retrain model
 
@@ -35,13 +35,17 @@ subcollection: visual-recognition
 {{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted.
 {: deprecated}
 
-After you analyze an image in the "Getting started tutorial," you are ready to train and create a custom model. With a custom model, you can train the {{site.data.keyword.visualrecognitionshort}} service to classify and recognize images to suit your business needs.
+With a custom model, you can train the {{site.data.keyword.visualrecognitionshort}} service to classify and recognize images to suit your business needs.
 {: shortdesc}
 
 ## Step 1:  Copy your credentials
 {: #copy-credentials}
 
-Use the credentials that you copied in "Getting started tutorial." If you didn't create a service instance, run through those steps in the [Before you begin](/docs/visual-recognition?topic=visual-recognition-getting-started-tutorial#prerequisites) section.
+Copy the credentials to authenticate to your {{site.data.keyword.visualrecognitionshort}} service instance:
+
+1.  Click the name of a service instance in the [Resource list](/resources?groups=resource-instance){: external}.
+1.  In the Credentials area of the service page, click **Show credentials**.
+1.  Copy the `API key` and `URL` values.
 
 {{site.data.keyword.Bluemix_dedicated_notm}} plans authenticate by using `-u "{username}:{password}"` instead of `-u "apikey:{apikey}"`. Use the username and password values for your instance in the examples in this tutorial.
 {: note}
@@ -156,7 +160,7 @@ You can update a custom model either by adding classes to the model or by adding
 
     Training begins immediately. When the new one is available, the status changes to `ready`.
 
-    Don't issue another retraining request until the status is `ready`. Multiple requests to retrain a model result in a single retraining taking effect. A time stamp that is called `updated` shows the time that the model was most recently updated. If you call the **Classify** methods while the model is retraining, the old definition of the model is used.
+    Don't issue another retraining request until the status is `ready`. Multiple requests to retrain a model result in a single retraining taking effect. A timestamp that is called `updated` shows the time that the model was most recently updated. If you call the **Classify** methods while the model is retraining, the old definition of the model is used.
     {: tip}
 1.  Check the training status periodically until you see a status of `ready`. Replace `{apikey}`, `{url}`, and `{classifier_id}` with your information:
 
