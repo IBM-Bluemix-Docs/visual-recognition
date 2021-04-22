@@ -40,7 +40,6 @@ Visual Recognition
     release-notes.md
     faqs-vr-usage.md
     faqs-vr-plans.md
-    feedback.md
 
     {: .topicgroup}
     Developer community
