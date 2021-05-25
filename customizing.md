@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-01-11"
+lastupdated: "2021-05-25"
 
 keywords: train classifier,retrain classifier,update classifier,positive example,negative example,hierarchy classes,training data,confidence score
 
@@ -131,8 +131,6 @@ The following guidelines are not enforced by the API. However, the service tends
 - Make sure that the backgrounds in your training images are comparable to what you expect to classify. The accuracy of your classifier can be affected by the kinds of images you provide to train it.
     - For example, if you are training the "tiger" classifier, your classifier might be less accurate if you train only on images of tigers in a zoo that are taken by a mobile phone but analyze images that taken in the wild taken by professional photographers.
 - Make sure that the subject matter of the classifier is at least one third of the image's overall size.
-
-For more information about training, see [Best practices for custom classifiers](https://www.ibm.com/cloud/blog/watson-visual-recognition-training-best-practices){: external}.
 
 ## Guidelines for high volume classifying
 {: #customizing-guidelines-classifying}
