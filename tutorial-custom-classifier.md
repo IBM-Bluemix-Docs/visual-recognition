@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-01-12"
+lastupdated: "2021-05-25"
 
 keywords: custom model,custom classifier,samples,train classifier,train mode,train custom model,update model,retrain model
 
@@ -278,10 +278,7 @@ curl -X DELETE -u "apikey:{apikey}" \
 ## Next steps
 {: #tutorial-custom-classifier-next-steps}
 
-Now that you have a basic understanding of how to use custom models, you can dive deeper:
-
-- Learn more about [Best practices for custom classifiers](https://www.ibm.com/cloud/blog/watson-visual-recognition-training-best-practices){: external}.
-- Read about the API in the [API reference](https://{DomainName}/apidocs/visual-recognition){: external}.
+Now that you have a basic understanding of how to use custom models, read about the API in the [API reference](https://{DomainName}/apidocs/visual-recognition){: external}.
 
 ### Attributions
 {: #tutorial-custom-classifier-attributions}

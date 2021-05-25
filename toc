@@ -20,7 +20,6 @@ Visual Recognition
     object-detection.md
     tutorial-custom-classifier.md
     customizing.md
-    [Best practices for custom classifiers](https://www.ibm.com/blogs/bluemix/2016/10/watson-visual-recognition-training-best-practices/)
     [Building Cognitive Applications: Visual Recognition (IBM Redbooks)](http://www.redbooks.ibm.com/redbooks/pdfs/sg248393.pdf)
     ha-dr.md
     {: .navgroup-end}
